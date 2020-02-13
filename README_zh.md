@@ -154,7 +154,7 @@ master 分支用于发布稳定版本，dev 分支用于开发，您可以尝试
 
   `./frpc -c ./frpc.ini`
 
-5. 将 `www.yourdomain.com` 的域名 A 记录解析到 IP `x.x.x.x`，如果服务器已经有对应的域名，也可以将 CNAME 记录解析到服务器原先的域名。
+5. 将 `www.yourdomain.com` 的域名 A 记录解析到 IP `x.x.x.x`，如果服务器已经有对应的域名，也可以将 CNAME 记录解析到服务器原先的域名。如果暂时没有域名，可以将`www.yourdomain.com`替换为对应的 IP`x.x.x.x`。
 
 6. 通过浏览器访问 `http://www.yourdomain.com:8080` 即可访问到处于内网机器上的 web 服务。
 
